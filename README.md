@@ -94,8 +94,9 @@ mongod
 
 # 4. Run the app
 node index.js
-Open [http://localhost:8080](http://localhost:8080) in your browser.
 ```
+
+Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ---
 
@@ -117,7 +118,3 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 Gulam Mohyudin Ashrafi
 📍 Built with ❤️ using the MEEN Stack — Node, Express, Mongoose, EJS
-
-```
-
-```
