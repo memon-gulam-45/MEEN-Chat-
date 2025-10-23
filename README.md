@@ -109,12 +109,12 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ---
 
-> This project is primarily designed for **learning backend and database concepts**.
+> This project is primarily designed for **learning backend and database concepts**. <br>
 > UI is minimal and functional to focus on **server-side logic and MongoDB operations**.
 
 ---
 
 💻 Author
 
-Gulam Mohyudin Ashrafi
+Gulam Mohyudin Ashrafi <br>
 📍 Built with 🤍 using the MEEN Stack — Node, Express, Mongoose, EJS
