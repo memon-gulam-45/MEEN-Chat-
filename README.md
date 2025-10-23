@@ -51,6 +51,7 @@ MEEN-Chat/
 │   └── edit.ejs
 │
 ├── index.js             # Main Express application file
+├── init.js 
 ├── package.json
 └── README.md
 </pre>
