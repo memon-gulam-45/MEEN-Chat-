@@ -31,6 +31,9 @@ This project focuses on **backend development and database integration**, with a
 - 📜 **View Chats** – List all chats dynamically using EJS templates.
 - ✏️ **Edit Chats** – Update existing chat messages by ID.
 - 💾 **MongoDB Integration** – Store and retrieve chats using Mongoose.
+- 🔄 **Update Chats** – Edit existing chat messages via PUT request using method-override.
+- 🗑️ **Delete Chats** – Remove a chat message via DELETE request using method-override.
+- 🛠️ **Method Override Integration** – Supports HTTP PUT and DELETE methods through HTML forms.
 
 ---
 
@@ -60,13 +63,15 @@ MEEN-Chat/
 
 ## 🧩 Routes Summary
 
-| Method | Route             | Description               |
-| ------ | ----------------- | ------------------------- |
-| GET    | `/`               | Root route test           |
-| GET    | `/chats`          | Display all chats         |
-| GET    | `/chats/new`      | Form to create a new chat |
-| POST   | `/chats`          | Save new chat to MongoDB  |
-| GET    | `/chats/:id/edit` | Edit an existing chat     |
+| Method | Route             | Description                     |
+| ------ | ----------------- | ------------------------------- |
+| GET    | `/`               | Root route test                 |
+| GET    | `/chats`          | Display all chats               |
+| GET    | `/chats/new`      | Form to create a new chat       |
+| POST   | `/chats`          | Save new chat to MongoDB        |
+| GET    | `/chats/:id/edit` | Edit an existing chat           |
+| PUT    | `/chats/:id`      | Update an existing chat message |
+| DELETE | `/chats/:id`      | Delete a chat message by ID     |
 
 ---
 
@@ -102,10 +107,10 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## 📚 Future Enhancements
 
-- Add delete route with password confirmation.
-- Add real-time messaging using Socket.io.
-- Add user authentication and sessions.
-- Improve UI with Bootstrap or Tailwind CSS (optional).
+- Add **password confirmation** for deleting chats (security improvement).
+- Add **real-time messaging** using Socket.io.
+- Add **user authentication** and sessions.
+- Improve UI with **Bootstrap or Tailwind CSS** (optional).
 
 ---
 

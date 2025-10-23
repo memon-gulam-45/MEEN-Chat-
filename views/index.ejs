@@ -17,8 +17,19 @@
       <p>From: <i><%= chat.from %></i></p>
       <div class="msg">
         <p><%= chat.msg %></p>
-        <form method="get" action="/chats/<%= chat._id %>/edit">
+        <form
+          style="display: inline-block"
+          method="get"
+          action="/chats/<%= chat._id %>/edit"
+        >
           <button>Edit</button>
+        </form>
+        <form
+          style="display: inline-block"
+          method="post"
+          action="/chats/<%= chat._id %>?_method=DELETE"
+        >
+          <button>Delete</button>
         </form>
       </div>
       <p>Received By: <i><%= chat.to %></i></p>
