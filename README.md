@@ -83,7 +83,7 @@ MEEN-Chat/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/MEEN-Chat.git
+git clone https://github.com/memon-gulam-45/MEEN-Chat-.git
 cd MEEN-Chat
 
 # 2. Install dependencies
