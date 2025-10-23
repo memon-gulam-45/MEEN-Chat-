@@ -117,4 +117,4 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 💻 Author
 
 Gulam Mohyudin Ashrafi
-📍 Built with ❤️ using the MEEN Stack — Node, Express, Mongoose, EJS
+📍 Built with 🤍 using the MEEN Stack — Node, Express, Mongoose, EJS
